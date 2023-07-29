@@ -55,7 +55,7 @@ export default function RootLayout({
         />
       </Head>
       <body
-        className={`${firaCode.className} scroll-smooth px-2 mx-4 bg-black text-white`}>
+        className={`${firaCode.className} scroll-smooth px-2 mx-4 bg-indigo-950 text-white`}>
         <Nav />
         {children}
       </body>
