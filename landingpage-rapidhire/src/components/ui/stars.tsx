@@ -18,10 +18,7 @@ const Stars = () => {
           initial={{ opacity: 0, translateX: -10, translateY: -5, scale: 0 }}
           animate={{ opacity: 1, translateX: 0, translateY: 0, scale: 1 }}
           transition={{ duration: 0.35, delay: i * 0.025 }}>
-          <Star
-            variants={starVariants}
-            className="fill-aquaForest-400 stroke-1"
-          />
+          <Star className="fill-aquaForest-400 stroke-1" />
         </motion.div>
       ))}
     </AnimatePresence>
