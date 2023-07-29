@@ -13,7 +13,7 @@ const buttonVariants = cva(
         default: "bg-aquaForest-400 text-white hover:bg-aquaForest-900",
         destructive: "bg-red-600 text-white hover:bg-red-700",
         outline:
-          "bg-transparent border border-aquaForest-400 border-2 hover:text-aquaForster-600 text-aquaForest-400",
+          "bg-transparent border border-aquaForest-200 border-2 hover:text-aquaForster-600 text-aquaForest-200",
         link: "bg-transparent underline-offset-4 hover:underline text-slate-900 hover:bg-transparent",
       },
       size: {
