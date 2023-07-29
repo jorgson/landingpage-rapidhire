@@ -1,3 +1,4 @@
+import Nav from "@/components/header/nav";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Fira_Code } from "next/font/google";
@@ -53,7 +54,11 @@ export default function RootLayout({
           content="#ffffff"
         />
       </Head>
-      <body className={firaCode.className}>{children}</body>
+      <body
+        className={`${firaCode.className} scroll-smooth px-2 mx-4 bg-black text-white`}>
+        <Nav />
+        {children}
+      </body>
     </html>
   );
 }
